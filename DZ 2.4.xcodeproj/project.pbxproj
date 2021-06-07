@@ -202,8 +202,8 @@
 		E7A2D36A2635F35C00E8CA5A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				E7A2D3782635F4D400E8CA5A /* TasksViewController.swift */,
 				E7022451262C2B3900834BE1 /* AddTaskViewController.swift */,
+				E7A2D3782635F4D400E8CA5A /* TasksViewController.swift */,
 				E7A2D37D2635F4E300E8CA5A /* DeletedTasksViewController.swift */,
 			);
 			path = Controller;
@@ -643,7 +643,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RKG3CKHF53;
-				INFOPLIST_FILE = "DZ 2.4/Supporting fails/Info.plist";
+				INFOPLIST_FILE = "DZ 2.4/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -663,7 +663,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RKG3CKHF53;
-				INFOPLIST_FILE = "DZ 2.4/Supporting fails/Info.plist";
+				INFOPLIST_FILE = "DZ 2.4/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

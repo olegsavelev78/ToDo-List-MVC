@@ -13,7 +13,6 @@ class AddTaskViewController: UIViewController {
             let date = NSDate()
             
             let task = Tasks(headName: headNameTask.text ?? "", textTask: taskTextview.text, dataTask: date as Date, deadline: dataPicker.date, statusTask: "Создана")
-            
             let item = Task()
             
             item.headName = task.headName

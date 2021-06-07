@@ -31,5 +31,26 @@ extension DeletedTasksViewController: UITableViewDelegate, UITableViewDataSource
         return cell
     }
     
+    func showAlert(task: Task){
+        let ac = UIAlertController(title: "Выберите действие", message: nil, preferredStyle: .actionSheet)
+        
+        let restoreTask = UIAlertAction(title: "Восстановить задачу", style: .default) { (action) in
+            task.statusTask = "Создана"
+            print(task.statusTask)
+        }
+        
+        let cancel = UIAlertAction(title: "Отмена", style: .cancel, handler: nil)
+
+        ac.addAction(restoreTask)
+        
+        ac.addAction(cancel)
+        present(ac, animated: true, completion: nil)
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let item = tasksArray[indexPath.row]
+        showAlert(task: item)
+    }
+    
     
 }

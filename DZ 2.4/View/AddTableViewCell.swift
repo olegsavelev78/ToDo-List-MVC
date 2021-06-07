@@ -5,7 +5,7 @@ import UIKit
 class AddTableViewCell: UITableViewCell {
     
     @IBOutlet weak var headName: UILabel!
-    @IBOutlet weak var taskTextView: UITextView!
+    @IBOutlet weak var taskTextLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var deadlineLabel: UILabel!
     
@@ -18,7 +18,7 @@ class AddTableViewCell: UITableViewCell {
         let formattedDLDate = formatter.string(from: item.deadline!)
         
         headName.text = item.headName
-        taskTextView.text = item.textTask
+        taskTextLabel.text = item.textTask
         deadlineLabel.text = formattedDLDate
         dateLabel.text = formatteddate
     }
