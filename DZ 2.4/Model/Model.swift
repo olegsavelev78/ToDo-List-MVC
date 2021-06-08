@@ -10,7 +10,7 @@ import Foundation
 struct Tasks {
     var headName: String
     var textTask: String
-    var dataTask: Date
+    var dateTask: Date
     var deadline: Date
     var statusTask: String
 }

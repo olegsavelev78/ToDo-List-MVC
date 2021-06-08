@@ -12,15 +12,9 @@ class AddTaskViewController: UIViewController {
         if headNameTask.text != "" && taskTextview.text != "" {
             let date = NSDate()
             
-            let task = Tasks(headName: headNameTask.text ?? "", textTask: taskTextview.text, dataTask: date as Date, deadline: dataPicker.date, statusTask: "Создана")
-            let item = Task()
-            
-            item.headName = task.headName
-            item.textTask = task.textTask
-            item.dataTask = task.dataTask
-            item.deadline = task.deadline
-            item.statusTask = task.statusTask
-            
+            let task = Tasks(headName: headNameTask.text ?? "", textTask: taskTextview.text, dateTask: date as Date, deadline: dataPicker.date, statusTask: "Активна")
+            let item = Task(item: task)
+ 
             PersistanceRealm.shared.addTask(item: item)
             dismiss(animated: true, completion: nil)
         }

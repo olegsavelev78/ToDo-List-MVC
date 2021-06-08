@@ -70,7 +70,7 @@
 		E7643BE9263DC758007B4544 /* DeletedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletedTableViewCell.swift; sourceTree = "<group>"; };
 		E7A2D3782635F4D400E8CA5A /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
 		E7A2D37D2635F4E300E8CA5A /* DeletedTasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletedTasksViewController.swift; sourceTree = "<group>"; };
-		E7A2D38B2635FB4000E8CA5A /* DataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DataBase.swift; path = ../../../../DataBase.swift; sourceTree = "<group>"; };
+		E7A2D38B2635FB4000E8CA5A /* DataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBase.swift; sourceTree = "<group>"; };
 		F0C77E4D7FD7C8C7ADE79FCA /* Pods-DZ 2.4-DZ 2.4UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DZ 2.4-DZ 2.4UITests.debug.xcconfig"; path = "Target Support Files/Pods-DZ 2.4-DZ 2.4UITests/Pods-DZ 2.4-DZ 2.4UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FD94AF706CE48656AA825FC7 /* Pods-DZ 2.4Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DZ 2.4Tests.debug.xcconfig"; path = "Target Support Files/Pods-DZ 2.4Tests/Pods-DZ 2.4Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
